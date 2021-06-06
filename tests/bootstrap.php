@@ -2,7 +2,7 @@
 /**
  * PHPUnit bootstrap file
  *
- * @package Easy_Customise_Helper
+ * @package Hari_Easy_Customise_Helper
  */
 
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
@@ -23,7 +23,7 @@ require_once $_tests_dir . '/includes/functions.php';
  * Manually load the plugin being tested.
  */
 function _manually_load_plugin() {
-	require dirname( dirname( __FILE__ ) ) . '/easy-customise-helper.php';
+	require dirname( dirname( __FILE__ ) ) . '/hari-easy-customise-helper.php';
 }
 tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
 

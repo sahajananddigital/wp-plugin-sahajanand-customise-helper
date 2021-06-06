@@ -2,7 +2,7 @@
 /**
  * Class SampleTest
  *
- * @package Easy_Customise_Helper
+ * @package Hari_Easy_Customise_Helper
  */
 
 /**

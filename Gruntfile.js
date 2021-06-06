@@ -9,7 +9,7 @@ module.exports = function( grunt ) {
 
 		addtextdomain: {
 			options: {
-				textdomain: 'easy-customise-helper',
+				textdomain: 'hari-easy-customise-helper',
 			},
 			update_all_domains: {
 				options: {
@@ -32,8 +32,8 @@ module.exports = function( grunt ) {
 				options: {
 					domainPath: '/languages',
 					exclude: [ '\.git/*', 'bin/*', 'node_modules/*', 'tests/*' ],
-					mainFile: 'easy-customise-helper.php',
-					potFilename: 'easy-customise-helper.pot',
+					mainFile: 'hari-easy-customise-helper.php',
+					potFilename: 'hari-easy-customise-helper.pot',
 					potHeaders: {
 						poedit: true,
 						'x-poedit-keywordslist': true
