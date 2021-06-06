@@ -32,6 +32,7 @@ if (!defined('Hari_Easy_Customise_Helper_PLUGIN_PATH')) {
 
 
 require_once Hari_Easy_Customise_Helper_PLUGIN_PATH.'/includes/shortcodes/basic-shortcodes.php';
+require_once Hari_Easy_Customise_Helper_PLUGIN_PATH.'/includes/functions/customisers.php';
 
 class Hari_Easy_Customise_Helper {
 
@@ -53,6 +54,7 @@ class Hari_Easy_Customise_Helper {
     public function __construct(){
         
         Hari_Easy_Customise_Helper_Shortcodes::get_instance();
+        Hari_Easy_Customise_Helper_Functions::get_instance();
     }
          
 }
