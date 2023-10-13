@@ -25,7 +25,7 @@ class Hari_Easy_Customise_Helper_Functions{
         add_action( 'after_theme_setup', array($this, 'custom_new_menu'));
         // Remove the REST API HTML entities.
         $post_type = "post";
-        add_filter( 'rest_prepare_ . $post_type', array( $this, 'decode_rest_api_title' ), 20, 3 );
+        add_filter( 'rest_prepare_' . $post_type, array( $this, 'decode_rest_api_title' ), 20, 3 );
 
     }
       
